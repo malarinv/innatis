@@ -1,14 +1,14 @@
 from setuptools import setup
 
 install_requires = [
-    "scikit-learn==0.20.2",
-    "scipy==1.2.0",
+    "scikit-learn>=0.20.2",
+    "scipy>=1.2.0",
     "sklearn-crfsuite==0.3.6",
-    "tensorflow>=1.12.2",
+    "tensorflow~=1.14",
     "word2number==1.1",
-    "rasa==1.3.9",
+    "rasa>=1.3.2",
     "tensorflow-hub==0.2.0",
-    "spacy==2.0.18",
+    "spacy>=2.0.18",
     "editdistance~=0.5.2",
 ]
 
